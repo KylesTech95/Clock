@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+</head>
+<header class='head'>
+    <div class='head-container'>
+      <h1 class='title'>Clock</h1>
+    </div>
+  </header>
+<body>
+    <div id="wrapper wrapper-container">
+        <div class="clock-container shadow-right"> <!--overflow is hidden--><!--z-index:998-->                
+            <div class="clock-border">
+                <div class="clock-display-border"><!--z-index:999--> <!--Place grid background here-->
+                    <div class="clock-display-actual">
+                        <input onkeydown="return false;" disabled="true" type="text" name="time" id="time" value="">
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <button class="control-btn btn1"></button>
+                <button class="control-btn btn2"></button>
+                <button class="control-btn btn3"></button>
+                <button class="control-btn btn4"></button>
+            </div>
+    </div>
+</div>
+
+</body>
+<script src='main.js'></script>
+</html>
